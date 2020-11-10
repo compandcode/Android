@@ -10,6 +10,8 @@ fun main() {
     val isItRaining = true
     val isItTimeToSleep = false
 
+    println(isItRaining || isItTimeToSleep) //&& , ||
+
     var x: Int = 32 //Use 'val' for CONSTANTS. var x = 32
     println("The Value of x is: $x")
     x = 10000
